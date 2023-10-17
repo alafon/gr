@@ -12,4 +12,6 @@ WORKDIR /app
 
 RUN npm install
 
+EXPOSE 8080
+
 CMD ["pm2-runtime", "pm2.config.js"]
